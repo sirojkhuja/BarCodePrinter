@@ -13,7 +13,7 @@ public class PrintBarcode {
         EscPos escpos = new EscPos(printerOutputStream);
         escpos.writeLF("Hello Wold");
         escpos.feed(5);
-        escpos.cut(EscPos.CutMode.FULL);
+//        escpos.cut(EscPos.CutMode.FULL);
         escpos.close();
     }
 }
